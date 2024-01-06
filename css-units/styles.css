@@ -1,0 +1,38 @@
+/*
+only absolute unit - pixel (that makes sense to use)
+
+relative units - em, rem, vh, vw, dvh, dvw, ch
+
+percentages - belong to neither
+
+*/
+
+
+/*
+
+the issue with the pixel unit - is that it does NOT scale (it is an absolute unit after all)
+
+a good use case for pixels however - borders
+
+relative units - can scale up and down
+example: rem 
+
+
+em units
+
+whenever used on a property other than font-size, the em is relative to the font-size of the element in which it is used.
+
+so if say font-size: 1em (16px) and if one sets the padding to 1em, that means the padding is now 1rem = 16px
+*/
+
+ul {
+    background-color: lightblue;
+
+    list-style: none;
+
+    padding: 0;
+
+    font-size: 1rem;
+
+    padding-top: 1em;
+}
