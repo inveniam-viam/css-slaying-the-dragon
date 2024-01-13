@@ -7,37 +7,38 @@
     <link rel = "stylesheet" href = "./styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class = "header">
+    <header class = "header-container container">
         <h2 class = "header__title">Slaying the Dragon</h2>
         <nav class = "header__navbar">
-            <a class = "header__navbar-item" href = "#pricing">Pricing</a>
-            <a class = "header__navbar-item" href = "#features">Features</a>
-            <a class = "header__navbar-item" href = "#contact">Contact</a>
+            <a class = "header__navbar-item" href = "">Pricing</a>
+            <a class = "header__navbar-item" href = "">Features</a>
+            <a class = "header__navbar-item" href="">Contact</a>
         </nav>
-        <div class = "header__btn-container">
-            <button class = "btn"> Login</button>
-            <button class = "btn"> Enter App</button>
+        <div class = "header_buttons">
+            <button class = "btn">Login</button>
+            <button class = "btn">Enter App</button>
         </div>
     </header>
 
-    <section class = "hero">
+    <section class ="hero container">
         <h1 class = "hero__title">Accounting made simple for small businesses.</h1>
         <p class = "hero__description">Most bookkeeping software is accurate, but hard to use. We make the opposite trade-off, and hope you don't get audited.</p>
-        <button class = "btn"> Learn More</button>
+        <button class ="btn">Learn More</button>
     </section>
 
-    <section class = "pricing">
-        <h2 class = "pricing__title">simple transparent pricing</h2>
-        <p class = "pricing__description">It doesn't matter what size your business is our software will work well for you</p>
-        <div class = pricing__container>
-            <div class = "pricing__box">
-                <h3 class = "pricing__cost">9$</h4>
+    <section class = "pricing container">
+
+        <h2 class = "pricing__title">Simple, transparent pricing</h2>
+        <p class = "pricing__description">It doesn't matter what size your business is, our software will work well for you.</p>
+        <div class = "pricing__tile_container">
+            <div class = "pricing__tile">
+                <h3 class = "pricing__price">9$</h3>
                 <h4 class = "pricing__plan">Starter</h4>
-                <p class = "pricing__plan-description">Good for anyone who is self employed</p>
-                <button class = "pricing__cta">Get started</button>
+                <p class = "pricing__plan-description">Good for anyone who is self-employed.</p>
+                <button class = "pricing__button">Get started</button>
                 <ul class = "pricing__features">
                     <li>Send 10 quotes and invoices</li>
                     <li>Connect up to 2 bank accounts</li>
@@ -47,11 +48,11 @@
                 </ul>
 
             </div>
-            <div class = "pricing__box">
-                <h3 class = "pricing__cost">15$</h4>
+            <div class = "pricing__tile">
+                <h3 class = "pricing__price">15$</h3>
                 <h4 class = "pricing__plan">Business</h4>
-                <p class = "pricing__plan-description">Perfect for small/medium businesses</p>
-                <button class = "pricing__cta">Get started</button>
+                <p class = "pricing__plan-description">Perfect for small/medium businesses.</p>
+                <button class = "pricing__button">Get started</button>
                 <ul class = "pricing__features">
                     <li>Send 25 quotes and invoices</li>
                     <li>Connect up to 5 bank accounts</li>
@@ -61,20 +62,54 @@
                     <li>Bulk reconcile transactions</li>
                     <li>Track in multiple currencies</li>
                 </ul>
+
             </div>
-            <div class = "pricing__box">
-                <h3 class = "pricing__cost">39$</h4>
+            <div class = "pricing__tile">
+                <h3 class = "pricing__price">39$</h3>
                 <h4 class = "pricing__plan">Enterprise</h4>
-                <p class = "pricing__plan-description">For even the biggest enterprise companies</p>
-                <button class = "pricing__cta">Get started</button>
+                <p class = "pricing__plan-description">For even the biggest enterprise companies.</p>
+                <button class = "pricing__button">Get started</button>
                 <ul class = "pricing__features">
                     <li>Send unlimited quotes and invoices</li>
                     <li>Connect up to 15 bank accounts</li>
                     <li>Track up to 200 expenses per month</li>
                     <li>Automated payroll support</li>
-                    <li>Export up to 25 reports including TPS</li>
+                    <li>Export up to 25 reports, including TPS</li>
                 </ul>
+
             </div>
+
+        </div>
+
+    </section>
+
+    <section class = "features container">
+        <h2 class = "features__title">Everything you need to run your books.</h2>
+        <p class = "features__description">Well everything you need if you aren't that picky about minor details like tax compliance.</p>
+
+        <div class = features__flex_container>
+
+            <div class = "features__tile">
+                <h4 class = "features__tile-title">Payroll</h4>
+                <p class = "features__tile-description">Keep track of everyone's salaries and whether or not they've been paid. Direct deposit not supported.</p>
+            </div>
+            <div class = "features__tile">
+                <h4 class = "features__tile-title">Claim expenses</h4>
+                <p class = "features__tile-description">All of your receipts organized into one place, as long as you don't mind typing in the data by hand.</p>
+            </div>
+            <div class = "features__tile">
+                <h4 class = "features__tile-title">VAT handling</h4>
+                <p class = "features__tile-description">We only sell our software to companies who don't deal with VAT at all.</p>
+            </div>
+            <div class = "features__tile">
+                <h4 class = "features__tile-title">Reporting</h4>
+                <p class = "features__tile-description">Easily export your data into an Excel spreadsheet where you can do whatever the hell you want with it.</p>
+            </div>
+            <div class = "features__tile">
+                <h4 class = "features__tile-title">Inventory</h4>
+                <p class = "features__tile-description">Never lose track of what's in stock with accurate inventory tracking.</p>
+            </div>
+
         </div>
     </section>
 </body>
