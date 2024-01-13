@@ -141,6 +141,7 @@ button {
 
 .features {
     text-align: center;
+    margin-top: 10rem;
 }
 
 .features__title {
@@ -173,12 +174,46 @@ button {
 .features__tile-description {
     margin-top: 1rem;
 }
+
+
+/* CONTACT SECTION */
+
+.contact {
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.contact__description{
+    max-width: 60ch;
+    margin-inline: auto;
+}
+
+.contact__button {
+    margin-top: 1rem;
+}
+
+/* FOOTER */
+
+.footer {
+
+    margin-top: 10rem;
+    color: #ccc;
+    text-align: center;
+}
+
+.footer__content {
+    font-size: 1rem;
+    font-weight: 300;
+    letter-spacing: 0.1em;;
+}
 /* UTILITY CLASSES */
 
 .container {
     width: 90%;
     margin-inline: auto;
 }
+
+
 
 .btn {
     padding: 0.5rem 1rem;
